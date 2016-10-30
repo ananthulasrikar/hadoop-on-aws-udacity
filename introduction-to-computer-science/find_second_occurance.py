@@ -10,8 +10,13 @@ def find_second(search_string, target_string):
     first_occurance = search_string.find(target_string)
     return search_string.find(target_string, first_occurance+1)
 
+def find_second_short(search_string, target_string):
+    return search_string.find(target_string, search_string.find(target_string)+1)
+
 danton = "De l'audace, encore de l'audace, toujours de l'audace"
 print find_second(danton, 'audace')
+
+print find_second_short(danton, 'audace')
 
 
 #>>> 25
