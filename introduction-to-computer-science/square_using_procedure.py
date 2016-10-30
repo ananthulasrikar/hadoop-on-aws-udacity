@@ -9,7 +9,10 @@ def square(a):
 
 print square(10)
 
+def sum3(d,e,f)
+    return d + e + f
 
+print sum3(1,2,3)
 # To test your procedure, uncomment the print
 # statement below, by removing the hash mark (#)
 # at the beginning of the line.
