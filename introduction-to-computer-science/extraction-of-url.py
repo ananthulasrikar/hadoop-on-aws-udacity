@@ -14,7 +14,7 @@
 page =('<div id="top_bin"><div id="top_content" class="width960">'
 '<div class="udacity float-left"><a href="http://udacity.com">')
 start_link = page.find('<a href=')
-2starting_quote_location = page.find('"',start_link)
+starting_quote_location = page.find('"',start_link)
 ending_quote_location = page.find('"',starting_quote_location+1)
 url = page[starting_quote_location+1:ending_quote_location]
 print url
