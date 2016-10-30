@@ -5,10 +5,9 @@
 # To help you out, the code for sum(a,b) is below.
 
 def square(a):
-    c = a * a
-    return c
+    return a * a
 
-print square(5)
+print square(10)
 
 
 # To test your procedure, uncomment the print
@@ -19,6 +18,3 @@ print square(5)
 # with the arrows (>>>). Lines which begin like
 # this (#>>>) are included to show the results
 # you should see when run your procedure.
-
-#print square(5)
-#>>> 25
